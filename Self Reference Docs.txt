@@ -1,0 +1,6 @@
+This documentation is created by Yatharth Seth as a guide to to run the given file.
+
+1. If the user is a non developer person then directily click on StartCHATx.exe in my-app.
+2. if you are a developer then open the CHATx mvn folder in intellij as it is a spring boot project perform mavin run from plugins
+and open this my-app folder in vs code and use  (npm run) command and if you perform any chnages in backend please generate a new jar file and replace it with the one in 
+my-app.

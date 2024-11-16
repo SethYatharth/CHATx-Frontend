@@ -1,0 +1,19 @@
+/* Define custom scrollbar colors using CSS variables */
+:root {
+    --scrollbar-thumb-color: #4a5568; /* Adjust as needed */
+    --scrollbar-track-color: #2d3748; /* Adjust as needed */
+  }
+  
+  /* Style the scrollbar */
+  .scrollbar-style::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+  }
+  
+  .scrollbar-style::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-color); /* Set the color of the scrollbar thumb */
+    border-radius: 4px; /* Make the scrollbar thumb rounded */
+  }
+  
+  .scrollbar-style::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track-color); /* Set the color of the scrollbar track */
+  }
